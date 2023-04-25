@@ -40,5 +40,8 @@ def main():
     t2.start()
 
 if __name__ == '__main__':
-  main()
+  try:
+    main()
+  except KeyboardInterrupt:
+    print("Deauthentication attack halted.")
 
