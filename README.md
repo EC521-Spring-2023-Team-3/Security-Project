@@ -9,8 +9,10 @@ The python script uses the scapy module to create the frames and packets to be s
 
 ## RTMP Folder
 **rtmpcheck.py**
-
+Gets Unix Time Stamp and Encodes the serial number with 4 digit hex code into base 64 and gets a rtmp URL. Then uses ffpmeg to check if the stream is live.
 **progressbar.py**
+Add a dynamic progress bar so i could see the progress of the program.
 **faster.py**
+Old program did everything one by one. using asyncio to speed thins up by running things in parrallel.
 ### Other Files
 the Pcap file contains network traffic from when a laptop connected to the eufy portal and streamed the webcam video
